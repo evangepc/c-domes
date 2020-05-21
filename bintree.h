@@ -1,0 +1,8 @@
+
+class bintree{
+
+	public:
+
+	private:
+
+};

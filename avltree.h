@@ -1,0 +1,7 @@
+class avltree{
+
+	public:
+
+	private:
+
+};

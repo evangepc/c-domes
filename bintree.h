@@ -1,4 +1,6 @@
 //https://www.cprogramming.com/tutorial/lesson18.html
+#ifndef BINTREE_H
+#define BINTREE_H
 
 class bintree{
 
@@ -14,9 +16,11 @@ class bintree{
             node *left;
             node *right;};
 
-	private:
+	protected:
         void insert(int key, node *leaf);
         node *search(int key, node *leaf);
         node *root;
 
 };
+
+#endif // BINTREE_H
